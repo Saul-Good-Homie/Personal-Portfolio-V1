@@ -14,5 +14,9 @@ code {
 
 .profile-pic {
   max-height: 75%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+}
+
+.badge {
+  cursor: pointer;
 }
