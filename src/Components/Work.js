@@ -9,7 +9,7 @@ export default class Work extends Component {
   render() {
     return (
       <div>
-        <h1>Work</h1>
+        <h1 className="section-title">Work</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -73,7 +73,20 @@ export default class Work extends Component {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
-            date="April 2013"
+            date="2015"
+            iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+            //icon={<SchoolIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Master of Business Administration
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              North Dakota State University
+            </h4>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            date="2013"
             iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
             //icon={<SchoolIcon />}
           >
@@ -83,19 +96,6 @@ export default class Work extends Component {
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               University of Oregon
-            </h4>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--education"
-            date="November 2012"
-            iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-            //icon={<SchoolIcon />}
-          >
-            <h3 className="vertical-timeline-element-title">
-              Master of Business Administration
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              North Dakota State University
             </h4>
           </VerticalTimelineElement>
         </VerticalTimeline>

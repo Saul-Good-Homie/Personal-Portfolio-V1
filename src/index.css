@@ -20,3 +20,22 @@ code {
 .badge {
   cursor: pointer;
 }
+
+.cert-container {
+  margin: 2rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  max-height: 100px;
+}
+
+.section-title {
+  display: flex;
+  justify-content: center;
+}
+
+/* .card-img-top {
+  border: 1px red solid;
+  max-width: 50%;
+  max-height: 50%;
+} */

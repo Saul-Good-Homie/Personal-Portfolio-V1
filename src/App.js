@@ -5,6 +5,7 @@ import { Routes, BrowserRouter as Router } from "react-router-dom";
 import { Route } from "react-router";
 import Hero from "./Components/Hero";
 import Work from "./Components/Work";
+import Certifications from "./Components/Certifications";
 
 //import NoMatchPage from "./NoMatchPage";
 
@@ -16,6 +17,7 @@ export default class App extends Component {
         <div className="container-fluid">
           <Hero />
           <Work />
+          <Certifications />
           <Routes>
             {/* <Route path="/" exact element={<Hero />} /> */}
             {/* <Route path="/dashboard" exact element={<Dashboard />} />
