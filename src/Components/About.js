@@ -7,9 +7,11 @@ export default class About extends Component {
 
   render() {
     return (
-      <div className="bio-section">
+      <div className="bio-section h-50">
         <h2 className="card-title">Hey, I'm Saul</h2>
-        <span>{this.state.display}</span>
+        <div className="about-content align-center p-2">
+          <span>{this.state.display}</span>
+        </div>
         <div className="d-flex justify-content-start">
           <span className="badge bg-primary m-2" onClick={this.getShortBio}>
             Short
