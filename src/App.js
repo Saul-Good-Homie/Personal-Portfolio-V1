@@ -6,6 +6,7 @@ import { Route } from "react-router";
 import Hero from "./Components/Hero";
 import Work from "./Components/Work";
 import Certifications from "./Components/Certifications";
+import Projects from "./Components/Projects";
 
 //import NoMatchPage from "./NoMatchPage";
 
@@ -18,6 +19,7 @@ export default class App extends Component {
           <Hero />
           <Work />
           <Certifications />
+          <Projects />
           <Routes>
             {/* <Route path="/" exact element={<Hero />} /> */}
             {/* <Route path="/dashboard" exact element={<Dashboard />} />
