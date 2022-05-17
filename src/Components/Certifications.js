@@ -7,8 +7,8 @@ export default class Certifications extends Component {
     return (
       <div>
         <h1 className="section-title">Certifications</h1>
-        <div className="cert-container h-25">
-          <div className="col-sm-6 w-25 p-3">
+        <div className="h-25 d-flex flex-wrap justify-content-around">
+          <div className="col-md-3 p-3">
             <div className="card text-center">
               <img
                 src={PMP}
@@ -26,7 +26,7 @@ export default class Certifications extends Component {
               </div>
             </div>
           </div>
-          <div className="col-sm-6 w-25 p-3">
+          <div className="col-md-3 p-3">
             <div className="card text-center">
               <img
                 src={CSM}
