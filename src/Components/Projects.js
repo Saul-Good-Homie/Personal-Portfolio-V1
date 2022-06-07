@@ -9,7 +9,7 @@ export default class Projects extends Component {
       <div>
         <h1 className="section-title">Projects</h1>
         <div className=" d-flex flex-wrap">
-          <div className="post-wrap p-2 m-3 col-sm-6">
+          <div className="post-wrap p-2 m-3">
             <div className="post">
               <div className="post-front">
                 <div className="post-img">
@@ -44,7 +44,7 @@ export default class Projects extends Component {
               </div>
             </div>
           </div>
-          <div className="post-wrap col-sm-6">
+          <div className="post-wrap">
             <div className="post">
               <div className="post-front">
                 <div className="post-img">

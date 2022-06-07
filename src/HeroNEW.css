@@ -1,0 +1,54 @@
+/* responsive CSS for about section */
+
+/* Desktop */
+.about-container {
+  border: 1px solid red;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  margin: 1rem;
+  padding: 20px;
+}
+
+.about-left {
+  display: grid;
+  border: 1px solid green;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.about-right {
+  display: grid;
+  border: 1px solid blue;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.about-left-top {
+  background-color: aqua;
+}
+
+.about-right-top {
+  background-color: beige;
+}
+.about-right-bottom {
+  display: grid;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+  .about-container {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+
+  .about-right {
+  }
+}

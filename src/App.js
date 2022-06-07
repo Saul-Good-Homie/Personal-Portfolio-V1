@@ -4,9 +4,11 @@ import NavBar from "./Components/NavBar";
 import { Routes, BrowserRouter as Router } from "react-router-dom";
 import { Route } from "react-router";
 import Hero from "./Components/Hero";
+import HeroNEW from "./Components/HeroNEW";
 import Work from "./Components/Work";
 import Certifications from "./Components/Certifications";
 import Projects from "./Components/Projects";
+import "./HeroNEW.css";
 
 //import NoMatchPage from "./NoMatchPage";
 
@@ -16,7 +18,7 @@ export default class App extends Component {
       <Router>
         <NavBar />
         <div className="container-fluid">
-          <Hero />
+          <HeroNEW />
           <Work />
           <Certifications />
           <Projects />
