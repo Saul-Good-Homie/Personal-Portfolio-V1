@@ -9,7 +9,7 @@ export default class About extends Component {
     return (
       <div className="bio-section h-50">
         <h2 className="card-title">Hey, I'm Saul</h2>
-        <div className="about-content align-center p-2">
+        <div className="about-content align-center">
           <span>{this.state.display}</span>
         </div>
         <div className="d-flex justify-content-start">

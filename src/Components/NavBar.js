@@ -31,16 +31,17 @@ class NavBar extends Component {
                     Home
                   </Link>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link className="nav-link" to="/cart">
                     About
                   </Link>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <Link className="nav-link" to="/customers">
                     Work
                   </Link>
                 </li>
+
                 <li className="nav-item">
                   <Link className="nav-link" to="/dashboard">
                     Blog

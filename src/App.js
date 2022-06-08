@@ -20,8 +20,7 @@ export default class App extends Component {
         <div className="container-fluid">
           <HeroNEW />
           <Work />
-          <Certifications />
-          <Projects />
+
           <Routes>
             {/* <Route path="/" exact element={<Hero />} /> */}
             {/* <Route path="/dashboard" exact element={<Dashboard />} />

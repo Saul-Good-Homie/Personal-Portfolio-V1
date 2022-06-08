@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import ProfilePic from "../Images/profile_pic_1.jpeg";
 import About from "./About.js";
 import { Link } from "react-router-dom";
+import { FaTwitterSquare } from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { IconContext } from "react-icons";
 
 export default class HeroNEW extends Component {
   render() {
@@ -21,10 +25,20 @@ export default class HeroNEW extends Component {
           </div>
           <div className="about-right-bottom">
             <span>
-              <Link to="https://twitter.com/saul_good_homie">Twitter</Link> |
-              <Link to="https://github.com/Saul-Good-Homie">Github</Link> |
+              <Link to="https://twitter.com/saul_good_homie">
+                <IconContext.Provider value={{ className: "icon-social" }}>
+                  <FaTwitterSquare />
+                </IconContext.Provider>
+              </Link>{" "}
+              <Link to="https://github.com/Saul-Good-Homie">
+                <IconContext.Provider value={{ className: "icon-social" }}>
+                  <FaGithubSquare />
+                </IconContext.Provider>
+              </Link>{" "}
               <Link to="https://www.linkedin.com/in/saulbelisle/">
-                Linkedin
+                <IconContext.Provider value={{ className: "icon-social" }}>
+                  <FaLinkedin />
+                </IconContext.Provider>
               </Link>
             </span>
           </div>
