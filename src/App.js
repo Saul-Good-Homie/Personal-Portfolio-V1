@@ -23,8 +23,12 @@ export default class App extends Component {
 
           <Routes>
             {/* <Route path="/" exact element={<Hero />} /> */}
-            {/* <Route path="/dashboard" exact element={<Dashboard />} />
-            <Route path="/Customers" exact element={<CustomerList />} />
+            {/* <Route
+              path="/Work"
+              exact
+              element={document.getElementById("work-section")}
+            /> */}
+            {/* <Route path="/Customers" exact element={<CustomerList />} />
             <Route path="/cart" exact element={<ShoppingCart />} />
             <Route path="*" element={<NoMatchPage />} /> */}
           </Routes>

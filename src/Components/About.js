@@ -41,7 +41,7 @@ export default class About extends Component {
   getMedBio = (bio) => {
     this.setState({
       display:
-        "I'm a full time Project Manager and a sometimes Web Developer. I like working on interesting projects that bring people together to solve big problems. This website is a practice project for my web development hobby. ",
+        "I'm a full time Project Manager and a sometimes Web Developer. I like working on interesting projects that bring people together to solve big problems. This website is a practice project for my web development hobby. This website is created with React JS. ",
     });
   };
   getLongBio = (bio) => {

@@ -8,24 +8,26 @@ import "react-vertical-timeline-component/style.min.css";
 export default class Work extends Component {
   render() {
     return (
-      <div>
+      <div id="work-section">
         <h1 className="section-title">Work</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="2019 - present"
+            date="2019 - Present"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            //icon={<WorkIcon />}
+            //icon={}
           >
             <h3 className="vertical-timeline-element-title">Project Manager</h3>
             <h4 className="vertical-timeline-element-subtitle">
               Light & Wonder
             </h4>
             <p>
-              Successfully implement ServiceMax, a Salesforce managed package.
-              XXX blah blah blah
+              Responsible for designing, building, and implementing ServiceMax
+              (a Salesforce based, mobile-ready field service software solution)
+              for the entire enterprise field service department for US and
+              Canada.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -39,8 +41,9 @@ export default class Work extends Component {
               MGM Resorts International
             </h4>
             <p>
-              Partnered with Sourcing teams to proactively find and implement
-              cost-saving initiatives
+              Lead the Strategic Sourcing category teams to develop program
+              charters, category strategies, benefits, and resource
+              requirements.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -55,27 +58,16 @@ export default class Work extends Component {
             <h4 className="vertical-timeline-element-subtitle">
               MGM Resorts International
             </h4>
-            <p>Partnered with Sourcing to dick around and waste time</p>
+            <p>
+              Assisting the PMO team to lead the Strategic Sourcing category
+              teams to develop cost-saving programs and initiatives.
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2006 - 2008"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            //icon={<WorkIcon />}
-          >
-            <h3 className="vertical-timeline-element-title">
-              Supply Chain Specialist
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              John Deere Electronic Solutions
-            </h4>
-            <p>Various random shit</p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--education"
-            date="2015"
             iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-            //icon={<SchoolIcon />}
+            //icon={<WorkIcon />}
           >
             <h3 className="vertical-timeline-element-title">
               Master of Business Administration
