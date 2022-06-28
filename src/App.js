@@ -19,7 +19,7 @@ export default class App extends Component {
         <NavBar />
         <div className="container-fluid">
           <HeroNEW />
-          <Work />
+          {/* <Work /> */}
 
           <Routes>
             {/* <Route path="/" exact element={<Hero />} /> */}

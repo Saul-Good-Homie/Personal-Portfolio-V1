@@ -25,21 +25,35 @@ export default class HeroNEW extends Component {
           </div>
           <div className="about-right-bottom">
             <span>
-              <Link to="https://twitter.com/saul_good_homie">
+              <a
+                href="https://twitter.com/saul_good_homie"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <IconContext.Provider value={{ className: "icon-social" }}>
                   <FaTwitterSquare />
                 </IconContext.Provider>
-              </Link>{" "}
-              <Link to="https://github.com/Saul-Good-Homie">
+              </a>
+
+              <a
+                href="https://github.com/Saul-Good-Homie"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <IconContext.Provider value={{ className: "icon-social" }}>
                   <FaGithubSquare />
                 </IconContext.Provider>
-              </Link>{" "}
-              <Link to="https://www.linkedin.com/in/saulbelisle/">
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/saulbelisle/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <IconContext.Provider value={{ className: "icon-social" }}>
                   <FaLinkedin />
                 </IconContext.Provider>
-              </Link>
+              </a>
             </span>
           </div>
         </div>

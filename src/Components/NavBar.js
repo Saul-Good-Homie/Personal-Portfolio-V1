@@ -5,7 +5,7 @@ class NavBar extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light pl-2">
           <div className="container-fluid">
             <a className="navbar-brand" href="/#">
               Saul Belisle

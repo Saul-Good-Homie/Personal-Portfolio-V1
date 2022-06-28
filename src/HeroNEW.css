@@ -8,6 +8,7 @@
   grid-template-columns: 1fr 1fr;
   margin: 1rem;
   padding: 20px;
+  max-height: 90vh;
 }
 
 .about-left {
@@ -24,6 +25,10 @@
   align-items: center;
   justify-content: center;
   align-content: center;
+}
+
+.about-length-btns {
+  display: center;
 }
 
 .about-left-top {
@@ -48,13 +53,37 @@ img {
   margin: 10px;
 }
 
+.bio-section {
+  display: center;
+  justify-content: center;
+}
+
 /* Mobile */
 @media (max-width: 500px) {
   .about-container {
     grid-template-columns: 1fr;
     justify-content: center;
+    text-align: center;
   }
 
+  .about-length-btns {
+    justify-content: center;
+  }
   .about-right {
+  }
+}
+
+/* Wide Screen */
+@media (min-width: 1025px) {
+  .container-fluid {
+    max-width: 80vw;
+  }
+}
+
+/* Wide Screen */
+@media (min-width: 1400px) {
+  .container-fluid {
+    max-width: 60vw;
+    max-height: 90vh;
   }
 }

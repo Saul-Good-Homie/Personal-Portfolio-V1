@@ -3,6 +3,9 @@ import React, { Component } from "react";
 export default class About extends Component {
   state = {
     display: "",
+    // shortBio: "test 1",
+    // medBio: `
+    // test 2`,
   };
 
   render() {
@@ -12,8 +15,11 @@ export default class About extends Component {
         <div className="about-content align-center">
           <span>{this.state.display}</span>
         </div>
-        <div className="d-flex justify-content-start">
-          <span className="badge bg-primary m-2" onClick={this.getShortBio}>
+        <div className="d-flex about-length-btns pl-0">
+          <span
+            className="badge bg-primary ml-0 m-2"
+            onClick={this.getShortBio}
+          >
             Short
           </span>
           <span className="badge bg-primary m-2" onClick={this.getMedBio}>
@@ -34,20 +40,20 @@ export default class About extends Component {
   getShortBio = (bio) => {
     this.setState({
       display:
-        "I'm a full time Project Manager and a sometimes Web Developer. I like working on interesting projects that bring people together to solve big problems. ",
+        "I'm a experienced, remote Project Manager passionate about people and communities. I love projects that bring people together to accomplish meaningful otucomes.",
     });
   };
 
   getMedBio = (bio) => {
     this.setState({
       display:
-        "I'm a full time Project Manager and a sometimes Web Developer. I like working on interesting projects that bring people together to solve big problems. This website is a practice project for my web development hobby. This website is created with React JS. ",
+        "I'm a experienced, remote Project Manager passionate about people and communities. I love projects that bring people together to accomplish meaningful otucomes. I'm also a self-taught, amatuer web developer with primary experience in HTML, CSS, Vanilla JS, React and Ruby on Rails. This website is a work in progress and a place for me to be creative.",
     });
   };
   getLongBio = (bio) => {
     this.setState({
       display:
-        "I'm a full time Project Manager and a sometimes Web Developer. I like working on interesting projects that bring people together to solve big problems. This website is a practice project for my web development hobby. In my spare time I enjoy camping, hiking and spending time outdoors with my dog, 'Dusty.'",
+        "I'm a experienced, remote Project Manager passionate about people and communities. I love projects that bring people together to accomplish meaningful otucomes. I'm also a self-taught, amatuer web developer with primary experience in HTML, CSS, Vanilla JS, React and Ruby on Rails. This website is a work in progress and a place for me to be creative. In my spare time I enjoy hiking, camping spending time outdoors with my dog, 'Dusty.'",
     });
   };
 }
