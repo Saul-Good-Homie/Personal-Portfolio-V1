@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Personal-Portfolio-V1/static/css/main.9d7aceb6.css",
-    "main.js": "/Personal-Portfolio-V1/static/js/main.ae05d8e8.js",
-    "static/media/React-memory-game-2.png": "/Personal-Portfolio-V1/static/media/React-memory-game-2.14ca5e3efb087d43f410.png",
-    "static/media/NYT.png": "/Personal-Portfolio-V1/static/media/NYT.f1e197c6bf9922222335.png",
-    "static/media/shopping-cart.png": "/Personal-Portfolio-V1/static/media/shopping-cart.a5042db896c926254296.png",
-    "static/media/profile_pic_1.jpeg": "/Personal-Portfolio-V1/static/media/profile_pic_1.c2b8fc9f51b579dab631.jpeg",
-    "static/media/seal-csm.png": "/Personal-Portfolio-V1/static/media/seal-csm.bf7f5d16b8c619566116.png",
-    "static/media/pmi-pmp.png": "/Personal-Portfolio-V1/static/media/pmi-pmp.281ea1b7097f4a864b69.png",
-    "index.html": "/Personal-Portfolio-V1/index.html",
-    "main.9d7aceb6.css.map": "/Personal-Portfolio-V1/static/css/main.9d7aceb6.css.map",
-    "main.ae05d8e8.js.map": "/Personal-Portfolio-V1/static/js/main.ae05d8e8.js.map"
+    "main.css": "/static/css/main.9d7aceb6.css",
+    "main.js": "/static/js/main.78646a4a.js",
+    "static/media/React-memory-game-2.png": "/static/media/React-memory-game-2.14ca5e3efb087d43f410.png",
+    "static/media/NYT.png": "/static/media/NYT.f1e197c6bf9922222335.png",
+    "static/media/shopping-cart.png": "/static/media/shopping-cart.a5042db896c926254296.png",
+    "static/media/profile_pic_1.jpeg": "/static/media/profile_pic_1.c2b8fc9f51b579dab631.jpeg",
+    "static/media/seal-csm.png": "/static/media/seal-csm.bf7f5d16b8c619566116.png",
+    "static/media/pmi-pmp.png": "/static/media/pmi-pmp.281ea1b7097f4a864b69.png",
+    "index.html": "/index.html",
+    "main.9d7aceb6.css.map": "/static/css/main.9d7aceb6.css.map",
+    "main.78646a4a.js.map": "/static/js/main.78646a4a.js.map"
   },
   "entrypoints": [
     "static/css/main.9d7aceb6.css",
-    "static/js/main.ae05d8e8.js"
+    "static/js/main.78646a4a.js"
   ]
 }
