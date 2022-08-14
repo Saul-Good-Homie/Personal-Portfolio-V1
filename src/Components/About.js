@@ -53,7 +53,7 @@ export default class About extends Component {
   getLongBio = (bio) => {
     this.setState({
       display:
-        "I'm a experienced, remote Project Manager passionate about people and communities. I love projects that bring people together to accomplish meaningful otucomes. I'm also a self-taught, amatuer web developer with primary experience in HTML, CSS, Vanilla JS, React and Ruby on Rails. This website is a work in progress and a place for me to be creative. In my spare time I enjoy hiking, camping spending time outdoors with my dog, 'Dusty.'",
+        "I'm a experienced, remote Project Manager passionate about people and communities. I love projects that bring people together to accomplish meaningful otucomes. I'm also a self-taught, amatuer web developer with primary experience in HTML, CSS, Vanilla JS, React and Ruby on Rails. This website is a work in progress and a place for me to be creative. In my spare time I enjoy hiking, camping and spending time outdoors with my dog, 'Dusty.'",
     });
   };
 }
