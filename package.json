@@ -24,7 +24,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "echo 'https//www.saulbelisle.com' > ./build/CNAME && gh-pages -d build"
+    "add-domain": "echo \"www.saulbelisle.com\" > build/CNAME",
+   "deploy": "npm run add-domain && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
