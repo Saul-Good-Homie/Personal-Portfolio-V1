@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+Portfolio Site for Saul Belisle, PMP
 
-Portfolio Site for Saul Belisle
 
-React JS
-Bootstrap CSS
+Built with:
+* React JS
+* Bootstrap CSS
