@@ -40,6 +40,10 @@ code {
   max-height: 50%;
 } */
 
+.card-title{
+  margin-bottom: 2%;
+}
+
 .bio-section {
   /* border: 1px solid red; */
 }
@@ -48,6 +52,7 @@ code {
   height: 100%;
   /* border: 1px solid red; */
 }
+
 
 /* Styles for project flip card section */
 .projects-container {
