@@ -31,6 +31,8 @@
   display: center;
 }
 
+
+
 .about-left-top {
   /* background-color: aqua; */
 }
@@ -51,6 +53,11 @@ img {
   color: #565c68;
   font-size: 2rem;
   margin: 10px;
+}
+
+.icon-social:hover{
+  color: #0275d8;
+  transform: scale(1.1)
 }
 
 .bio-section {
