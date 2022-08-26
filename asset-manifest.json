@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ecaddfa2.css",
-    "main.js": "/static/js/main.30dd31a0.js",
+    "main.js": "/static/js/main.f7f7b3aa.js",
     "static/media/React-memory-game-2.png": "/static/media/React-memory-game-2.14ca5e3efb087d43f410.png",
     "static/media/NYT.png": "/static/media/NYT.f1e197c6bf9922222335.png",
     "static/media/shopping-cart.png": "/static/media/shopping-cart.a5042db896c926254296.png",
@@ -10,10 +10,10 @@
     "static/media/pmi-pmp.png": "/static/media/pmi-pmp.281ea1b7097f4a864b69.png",
     "index.html": "/index.html",
     "main.ecaddfa2.css.map": "/static/css/main.ecaddfa2.css.map",
-    "main.30dd31a0.js.map": "/static/js/main.30dd31a0.js.map"
+    "main.f7f7b3aa.js.map": "/static/js/main.f7f7b3aa.js.map"
   },
   "entrypoints": [
     "static/css/main.ecaddfa2.css",
-    "static/js/main.30dd31a0.js"
+    "static/js/main.f7f7b3aa.js"
   ]
 }
