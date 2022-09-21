@@ -41,7 +41,7 @@ export default class About extends Component {
     this.setState({
       display:
       <text>
-        I'm a experienced, remote Project Manager passionate about people and communities. I love projects that bring people together to accomplish meaningful otucomes.
+        I'm a experienced, remote Project Manager passionate about people and communities. I love projects that bring people together to accomplish meaningful outcomes.
       </text>
     });
   };
@@ -50,7 +50,7 @@ export default class About extends Component {
     this.setState({
       display:
         <text>
-        I'm a experienced, remote Project Manager passionate about people and communities. I love projects that bring people together to accomplish meaningful otucomes. 
+        I'm a experienced, remote Project Manager passionate about people and communities. I love projects that bring people together to accomplish meaningful outcomes. 
         <br></br><br></br>
         I'm also a self-taught, amatuer web developer with primary experience in HTML, CSS, Vanilla JS, React and Ruby on Rails. This website is a work in progress and a place for me to be creative.
       </text>
@@ -60,7 +60,7 @@ export default class About extends Component {
     this.setState({
       display:
       <text>
-        I'm a experienced, remote Project Manager passionate about people and communities. I love projects that bring people together to accomplish meaningful otucomes.
+        I'm a experienced, remote Project Manager passionate about people and communities. I love projects that bring people together to accomplish meaningful outcomes.
         <br></br><br></br>
         I'm also a self-taught, amatuer web developer with primary experience in HTML, CSS, Vanilla JS, React and Ruby on Rails. This website is a work in progress and a place for me to be creative. 
         <br></br><br></br>
